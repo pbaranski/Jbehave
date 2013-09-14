@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>Jbehave</groupId>
-    <artifactId>Jbehave</artifactId>
+    <groupId>jbehave</groupId>
+    <artifactId>jbehave</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>Jbehave Maven Webapp</name>
+    <name>jbehave</name>
     <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
@@ -22,7 +22,7 @@
 
     </dependencies>
     <build>
-        <finalName>Jbehave</finalName>
+        <finalName>jbehave</finalName>
         <plugins>
             <plugin>
                 <groupId>org.jbehave</groupId>
@@ -99,7 +99,7 @@
 
             <id>openshift</id>
             <build>
-                <finalName>notebook</finalName>
+                <finalName>jbehave</finalName>
                 <plugins>
                     <plugin>
                         <artifactId>maven-war-plugin</artifactId>
