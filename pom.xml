@@ -135,7 +135,7 @@
                         <executions>
                             <execution>
                                 <id>run-stories</id>
-                                <phase>integration-test</phase>
+                                <phase>test</phase>
                                 <configuration>
                                     <scope>test</scope>
                                     <includes>
