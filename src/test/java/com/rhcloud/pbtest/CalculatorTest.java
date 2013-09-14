@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertTrue;
 
 public class CalculatorTest {
-     private Calculator calculator;
+     private Calculator calculator = new Calculator();
 
     @Test
     public void shouldAddNumbers(){
