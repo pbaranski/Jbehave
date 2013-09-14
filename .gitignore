@@ -1,0 +1,8 @@
+*.iml
+*.idea
+target/
+mem.properties
+mem.script
+.project
+.classpath
+.settings
