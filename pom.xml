@@ -175,7 +175,7 @@
                                 <id>run-stories</id>
                                 <phase>test</phase>
                                 <configuration>
-                                    <!--<scope>test</scope>-->
+                                    <scope>test</scope>
                                     <includes>
                                         <include>**/*Stories*.java</include>
                                     </includes>
