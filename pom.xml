@@ -48,7 +48,7 @@
                 </configuration>
                 <executions>
                     <execution>
-                        <phase>package</phase>
+                        <phase>verify</phase>
                         <goals>
                             <goal>cobertura</goal>
                         </goals>
@@ -157,7 +157,7 @@
                         </configuration>
                         <executions>
                             <execution>
-                                <phase>test</phase>
+                                <phase>verify</phase>
                                 <goals>
                                     <goal>cobertura</goal>
                                 </goals>
@@ -171,7 +171,7 @@
                         <executions>
                             <execution>
                                 <id>run-stories</id>
-                                <phase>compile</phase>
+                                <phase>test</phase>
                                 <configuration>
                                     <scope>test</scope>
                                     <includes>
