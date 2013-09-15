@@ -148,6 +148,8 @@
                         <artifactId>jbehave-maven-plugin</artifactId>
                         <executions>
                             <execution>
+                                <id>run-stories</id>
+                                <phase>test</phase>
                                 <configuration>
                                     <!--<scope>test</scope>-->
                                     <includes>
