@@ -1,5 +1,6 @@
 package com.rhcloud.pbtest;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;
@@ -7,6 +8,7 @@ import static org.junit.Assert.assertTrue;
 public class CalculatorTest {
      private Calculator calculator = new Calculator();
 
+    @Ignore ("Code coverage test")
     @Test
     public void shouldAddNumbers(){
        int number1 = 10;
