@@ -153,7 +153,7 @@
                                 <configuration>
                                     <scope>test</scope>
                                     <includes>
-                                        <include>**/test/*Stories*.java</include>
+                                        <include>**/*Stories*.java</include>
                                     </includes>
                                 </configuration>
                                 <goals>
