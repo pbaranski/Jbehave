@@ -65,7 +65,7 @@
                         <format>xml</format>
                         <format>html</format>
                     </formats>
-                    <outputDirectory>../target/cobertura/${project.name}</outputDirectory>
+                    <outputDirectory>../target/jbehave/cobertura/${project.name}</outputDirectory>
                     <check>
                         <totalLineRate>60</totalLineRate>
                     </check>
