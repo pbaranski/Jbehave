@@ -65,7 +65,7 @@
                         <format>xml</format>
                         <format>html</format>
                     </formats>
-                    <outputDirectory>../target/jbehave/cobertura/${project.name}</outputDirectory>
+                    <outputDirectory>../target/jbehave/coubertura</outputDirectory>
                     <check>
                         <totalLineRate>60</totalLineRate>
                     </check>
@@ -151,6 +151,24 @@
 
         </plugins>
     </build>
+    
+    
+<reporting>
+    <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>cobertura-maven-plugin</artifactId>
+        <version>2.5.2</version>
+        <configuration>
+            <check></check>
+            <formats>
+                <format>html</format>
+                <format>xml</format>
+            </formats>
+            <outputDirectory>../target/jbehave/cobertura</outputDirectory>
+        </configuration>
+    </plugin>
+</reporting>
+
 
     <profiles>
         <profile>
