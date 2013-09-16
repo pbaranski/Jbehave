@@ -154,6 +154,7 @@
     
     
 <reporting>
+    <plugins>
     <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>cobertura-maven-plugin</artifactId>
@@ -167,6 +168,7 @@
             <outputDirectory>../target/jbehave/cobertura</outputDirectory>
         </configuration>
     </plugin>
+    </plugins>
 </reporting>
 
 
