@@ -61,14 +61,13 @@
                 <artifactId>cobertura-maven-plugin</artifactId>
                 <version>2.5.2</version>
                 <configuration>
+                    <check>
+                        <totalLineRate>60</totalLineRate>
+                    </check>
                     <formats>
                         <format>xml</format>
                         <format>html</format>
                     </formats>
-                    <outputDirectory>../target/jbehave/coubertura</outputDirectory>
-                    <check>
-                        <totalLineRate>60</totalLineRate>
-                    </check>
                 </configuration>
                 <executions>
                     <execution>
@@ -80,7 +79,7 @@
                     </execution>
                 </executions>
             </plugin>
-
+            
             <plugin>
                 <groupId>org.jbehave</groupId>
                 <artifactId>jbehave-maven-plugin</artifactId>
@@ -151,26 +150,6 @@
 
         </plugins>
     </build>
-    
-    
-<reporting>
-    <plugins>
-    <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>cobertura-maven-plugin</artifactId>
-        <version>2.5.2</version>
-        <configuration>
-            <check></check>
-            <formats>
-                <format>html</format>
-                <format>xml</format>
-            </formats>
-            <outputDirectory>../target/jbehave/cobertura</outputDirectory>
-        </configuration>
-    </plugin>
-    </plugins>
-</reporting>
-
 
     <profiles>
         <profile>
