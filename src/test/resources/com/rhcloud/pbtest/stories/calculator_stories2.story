@@ -1,5 +1,5 @@
 Narrative:
-In order to quickly find out the deduction of those two numbers
+In order to quickly find out the deduction of two numbers
 As a user
 I want to use a calculator to deduct two numbers
 
