@@ -18,4 +18,8 @@ public class Calculator {
     public int getResult() {
         return result;
     }
+
+    public void divide(int number1, int number2) {
+        result = number1+number2;
+    }
 }
