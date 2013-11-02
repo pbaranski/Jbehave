@@ -18,7 +18,7 @@ import static java.util.Arrays.asList;
 import static org.jbehave.core.io.CodeLocations.codeLocationFromClass;
 import static org.jbehave.core.reporters.Format.*;
 
-public class CalculatorStories extends JUnitStory {
+public abstract class CalculatorMainStory extends JUnitStory {
 
     @Override
     public Configuration configuration() {

@@ -43,7 +43,7 @@
                         <configuration>
                             <!--<scope>test</scope>-->
                             <includes>
-                                <include>**/*Stories*.java</include>
+                                <include>**/stories/*.java</include>
                             </includes>
                         </configuration>
                         <goals>
