@@ -58,26 +58,26 @@
 
 
             
-            <plugin>
-                <groupId>org.jbehave</groupId>
-                <artifactId>jbehave-maven-plugin</artifactId>
-                <version>${jbehave-core.version}</version>
-                <executions>
-                    <execution>
-                        <id>run-stories</id>
-                        <phase>test</phase>
-                        <configuration>
-                            <!--<scope>test</scope>-->
-                            <includes>
-                                <include>**/*Stories*.java</include>
-                            </includes>
-                        </configuration>
-                        <goals>
-                            <goal>run-stories-as-embeddables</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
+            <!--<plugin>-->
+                <!--<groupId>org.jbehave</groupId>-->
+                <!--<artifactId>jbehave-maven-plugin</artifactId>-->
+                <!--<version>${jbehave-core.version}</version>-->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<id>run-stories</id>-->
+                        <!--<phase>test</phase>-->
+                        <!--<configuration>-->
+                            <!--&lt;!&ndash;<scope>test</scope>&ndash;&gt;-->
+                            <!--<includes>-->
+                                <!--<include>**/*Stories*.java</include>-->
+                            <!--</includes>-->
+                        <!--</configuration>-->
+                        <!--<goals>-->
+                            <!--<goal>run-stories-as-embeddables</goal>-->
+                        <!--</goals>-->
+                    <!--</execution>-->
+                <!--</executions>-->
+            <!--</plugin>-->
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -141,7 +141,7 @@
                 <executions>
                     <execution>
                         <id>cobertura-check</id>
-                        <phase>package</phase>
+                        <phase>test</phase>
                         <goals>
                             <goal>cobertura</goal>
                         </goals>
@@ -173,7 +173,7 @@
                         <executions>
                             <execution>
                                 <id>run-stories</id>
-                                <phase>package</phase>
+                                <phase>test</phase>
                                 <configuration>
                                     <scope>test</scope>
                                     <includes>
