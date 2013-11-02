@@ -30,4 +30,10 @@ public class CalculatorTest {
         assertEquals("Incorrect deduction", 3, calc.getResult());
     }
 
+    @Test
+    public void shouldSquareNumber() throws Exception{
+        calc.square(2);
+        assertEquals("Incorrect square", 4, calc.getResult());
+    }
+
 }
