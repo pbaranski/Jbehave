@@ -17,7 +17,7 @@ public class CalculatorTest {
     //depends from getResult()
     //@Ignore("Code coverage test")
     @Test
-    public void testAddSomething() throws Exception {
+    public void testAddTwoNumbers() throws Exception {
         calc.add(1, 2);
         assertEquals("Incorrect addition", 3, calc.getResult());
     }
@@ -25,7 +25,7 @@ public class CalculatorTest {
     //depends from getResult()
     //@Ignore ("Code coverage test")
     @Test
-    public void testDeductSomething() throws Exception {
+    public void testDeductTwoNumbers() throws Exception {
         calc.deduct(4, 1);
         assertEquals("Incorrect deduction", 3, calc.getResult());
     }

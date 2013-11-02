@@ -3,7 +3,7 @@
 
 <html>
 <body>
-<h2>JBehaveTestApp</h2>
+<h2>JBehaveTestApp CALC</h2>
 
 <form action="result.jsp">
     number1: <input type="text" name="number1"><br/>
