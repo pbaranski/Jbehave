@@ -10,7 +10,7 @@ import static org.junit.Assert.assertTrue;
 public class CalculatorTest {
      private Calculator calculator = new Calculator();
 
-   // @Ignore ("Code coverage test")
+    @Ignore ("Code coverage test")
     @Test
     public void shouldAddNumbers(){
        int number1 = 10;
@@ -19,6 +19,7 @@ public class CalculatorTest {
        assertTrue(calculator.getResult() == 15);
     }
 
+    @Ignore ("Code coverage test")
     @Test
     public void testDeduct() throws Exception {
         calculator.deduct(4, 1);

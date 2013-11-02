@@ -1,6 +1,7 @@
 package com.rhcloud.pbtest.calculator;
 
 import com.rhcloud.pbtest.Calculator;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static junit.framework.Assert.assertEquals;
@@ -14,6 +15,7 @@ public class Calculator2Test {
     Calculator calc = new Calculator();
 
     //depends from getResult()
+    @Ignore("Code coverage test")
     @Test
     public void testAddSomething() throws Exception {
         calc.add(1, 2);
@@ -21,6 +23,7 @@ public class Calculator2Test {
     }
 
     //depends from getResult()
+    @Ignore ("Code coverage test")
     @Test
     public void testDeductSomething() throws Exception {
         calc.deduct(4, 1);
