@@ -18,7 +18,7 @@ public class CalculatorDivideTest {
     @Test
     public  void shouldDivideNumberByAnotherNumber(){
         calc.divide(4,2);
-        assertEquals("Divide unsuccessfull", calc.getResult(), 2);
+        assertEquals("Divide unsuccessfull", 2, calc.getResult());
     }
 
 }
